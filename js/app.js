@@ -6,9 +6,9 @@ const app = createApp({
       navLinks: [
         { label: "首页", href: "#hero" },
         { label: "文章", href: "#posts" },
-        { label: "项目", href: "#projects" },
-        { label: "历程", href: "#timeline" },
-        { label: "联系", href: "#contact" },
+        { label: "归档", href: "#archive" },
+        { label: "标签", href: "#tags" },
+        { label: "关于", href: "#about" },
       ],
       posts: [
         {
@@ -19,7 +19,8 @@ const app = createApp({
           excerpt:
             "结合真实项目总结 Vue 3 的组件拆分与状态管理技巧，帮助你写出更优雅的业务代码。",
           tags: ["Vue", "前端工程化", "Composition API"],
-          link: "https://github.com/xuxiang/blog-notes/vue3-best-practices.md",
+          cover: "linear-gradient(135deg, #a18cd1 0%, #fbc2eb 100%)",
+          link: "#",
         },
         {
           slug: "typescript-patterns",
@@ -29,7 +30,8 @@ const app = createApp({
           excerpt:
             "聚焦常用的类型体操、工具类型与团队协作约定，完善前端项目的类型保障。",
           tags: ["TypeScript", "工程规范"],
-          link: "https://github.com/xuxiang/blog-notes/typescript-patterns.md",
+          cover: "linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%)",
+          link: "#",
         },
         {
           slug: "vite-deploy-guide",
@@ -39,7 +41,8 @@ const app = createApp({
           excerpt:
             "一份开箱即用的部署流水线教程，涵盖 CI 配置、缓存优化与自定义域名绑定。",
           tags: ["Vite", "CI/CD", "GitHub Pages"],
-          link: "https://github.com/xuxiang/blog-notes/vite-deploy-guide.md",
+          cover: "linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%)",
+          link: "#",
         },
         {
           slug: "cloud-native-notes",
@@ -49,7 +52,8 @@ const app = createApp({
           excerpt:
             "分享我在 K8s 环境下实践微前端的经验，包括部署策略与可观测性方案。",
           tags: ["云原生", "微前端", "Kubernetes"],
-          link: "https://github.com/xuxiang/blog-notes/cloud-native-notes.md",
+          cover: "linear-gradient(120deg, #f093fb 0%, #f5576c 100%)",
+          link: "#",
         },
         {
           slug: "devtool-weekly",
@@ -59,7 +63,8 @@ const app = createApp({
           excerpt:
             "每周日推荐三款提效工具，涵盖调试、文档与自动化测试等多个场景。",
           tags: ["效率工具", "提效", "周刊"],
-          link: "https://github.com/xuxiang/blog-notes/devtool-weekly.md",
+          cover: "linear-gradient(to top, #cfdfd8 0%, #e2ebf0 100%)",
+          link: "#",
         },
       ],
       featuredProjects: [
